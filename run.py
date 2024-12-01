@@ -5,6 +5,8 @@ import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
 import time
+from keep_alive import keep_alive
+keep_alive()
 
 bot = telebot.TeleBot("7698859036:AAG7jRRL58BTtbSv8Wf6kd_uHub3lshUr3c")
 
