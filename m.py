@@ -10,7 +10,7 @@ from flask import Flask
 
 logging.basicConfig(filename="bot_errors.log", level=logging.ERROR, format="%(asctime)s - %(levelname)s - %(message)s")
 
-bot = telebot.TeleBot("7838760020:AAGbxrmDlSnAFHf1JIkux_1EvGTb_ZlRoJU")
+bot = telebot.TeleBot("7698859036:AAG7jRRL58BTtbSv8Wf6kd_uHub3lshUr3c")
 
 registered_users = {}
 
